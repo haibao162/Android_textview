@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+    
+<TextView
+    android:layout_width="200px"
+    android:layout_height="wrap_content"
+    android:background="#00FF00"
+    android:text="Temperture    "
+    android:layout_marginTop="25dp" 
+    android:layout_marginLeft="25dp"
+    android:gravity="center" />
+   <TextView
+    android:layout_width="200px"
+    android:layout_height="wrap_content"
+    android:background="#33BBFF"
+    android:text="speed" 
+    android:layout_marginLeft="25dp"
+    android:gravity="center" /> 
+   <TextView
+    android:layout_width="200px"
+    android:layout_height="wrap_content"
+    android:background="#FF0000"
+    android:text="Maxpressure" 
+    android:layout_marginLeft="25dp"
+    android:gravity="center"  /> 
+     <TextView
+    android:layout_width="200px"
+    android:layout_height="wrap_content"
+    android:background="#EEEE00"
+    android:text="test 3"
+    android:layout_marginLeft="25dp" 
+    android:gravity="center" /> 
+    <!--layout_width="" wrap_content设置文本宽度，跟文本内容一样高  
+    match_parent 填充父控件-->
+   <TextView android:layout_width="200px"
+    android:layout_height="wrap_content"
+    android:background="#EEEE00"
+    android:text="test 4" 
+    android:gravity="right"
+    android:layout_gravity="center"/> 
+    <!--  layout_gravity设置view在父view中对齐方式
+     gravity表示文本内容位置-->
+     
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="1"
+         android:background="#aa0000"
+         android:layout_weight="1"/>
+      <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="2"
+         android:background="#00aa00"
+         android:layout_weight="2"/>
+       <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="3"
+         android:background="#0000aa"
+         android:layout_weight="3"/>
+</LinearLayout>
